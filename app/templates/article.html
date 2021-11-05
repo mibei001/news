@@ -1,0 +1,45 @@
+{% extends 'base.html'%}
+{% block content%}
+<div class="container">
+
+    <!-- Popular movie section  -->
+    <h3> News articles</h3>
+  
+
+    <div class="row">
+
+        {% for article in article %}
+
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <a href="{{article.url}}" target="_blank">
+                    <img src="{{article.urlToImage}}" alt="{{article.title}}" class="img-responsive" styles="height:30px">
+                </a>
+                <div class="caption">
+                    <h4><a href="{{article.url}}" target="_blank">{{article.title }}</a></h4>
+                    <p>{{article.description }}</p>
+                    <a href="{{article.url}}" target="_blank"> Read More</a>
+
+
+                </div>
+                <div class="footer">
+                    Published at: {{article.publishedAt}}
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    {% endfor %}
+
+
+</div>
+
+
+{%endblock%}

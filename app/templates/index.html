@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <!-- Tittle  Section  -->
+    <div class="jumbotron">
+        <h1>{{ title}}</h1>
+    </div>
+    <div class="row">
+        <h3> Top Technology News Sources</h3>
+        <hr>
+        {% for source in technology %}
+
+        <div class="col-md-6"><a href='/source/{{source.id}}'>{{source.name}}</a></div>
+
+        {% endfor %}
+
+        <!--Sport news section-->
+        <h3> Top Sports News Sources</h3>
+        <hr>
+        {% for sports_source in sports %}
+        <div class="col-md-6"><a href='/source/{{sports_source.id}}'>{{ sports_source.name}}</a></div>
+        {% endfor %}
+    </div>
+
+    <!-- Business News Section  -->
+    <div class="row">
+
+        <h3> Top Business News Sources</h3>
+        <hr>
+        {% for business_source in business %}
+        <div class="col-md-6"><a href='/source/{{business_source.id}}'>{{ business_source.name}}</a></div>
+        {% endfor %}
+
+        <!-- Entertainment News Section  -->
+        <h3> Top Entertainment Sources</h3>
+        <hr>
+        {% for entertainment_source in entertainment %}
+        <div class="col-md-6"><a href='/source/{{ entertainment_source.id}}'>{{ entertainment_source.name}}</a></div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{%endblock%}
