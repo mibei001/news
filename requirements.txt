@@ -69,12 +69,16 @@ nbformat==5.1.3
 nest-asyncio==1.5.1
 netifaces==0.10.4
 notebook==6.4.5
+numpy==1.21.4
 oauthlib==3.1.0
 olefile==0.46
+opencv-contrib-python==4.5.4.58
+opencv-python==4.5.4.58
 packaging==21.0
 pandocfilters==1.5.0
 paramiko==2.6.0
 parso==0.8.2
+pbr==5.7.0
 pexpect==4.6.0
 pickleshare==0.7.5
 Pillow==7.0.0
@@ -112,6 +116,7 @@ sniffio==1.2.0
 systemd-python==234
 terminado==0.12.1
 testpath==0.5.0
+testresources==2.0.1
 tornado==6.1
 traitlets==5.1.0
 ubuntu-advantage-tools==27.2
