@@ -19,7 +19,7 @@ Pip
 virtualenv
 A text  Editor
 
-Clone this repository to your local computer.
+To Clone this repository to your local computer.
 Ensure you have python3.6 installed in your computer.
 From the terminal navigate to the cloned project folder.
 Create a virtual environment and register for an API key.
