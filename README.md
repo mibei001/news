@@ -9,7 +9,7 @@ The Application will help user to:
 1.View news source and watch what they prefer
 2.See image description and publication date of the news article
 3.Click on article to view for specific news on news page
-4.You can visit the application using: https://newshighlightseven.herokuapp.com/
+4.You can visit the application using: https://https://mibei.herokuapp.com/
 
 ## SetUp instructions
 
@@ -40,7 +40,7 @@ Once started, the project can be accessed on your localhost using the address: l
 
 ## License information
   
-Copyright(c)2019 gentille
+Copyright(c)2019 MIT
  
 
 
