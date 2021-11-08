@@ -3,7 +3,7 @@
 
 ## Description of the project
 
-This application helps people to watch news when they click on news source links it displays articles which directs them on news article's webpage. 
+This application helps people to watch news when they click on news source links it displays articles which redirects them on news article's webpage. 
 
 The Application will help user to:
 1.View news source and watch what they prefer
